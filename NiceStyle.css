@@ -13,7 +13,6 @@ nav {
     background-image: linear-gradient(white,white);
 }
 
-
 .container-fluid img {
     float: left;
     height: 75px;
@@ -36,7 +35,7 @@ nav .logo p {
 }
 
 nav ul {
-    float: right;
+    padding-left: 47rem;
 }
 
 nav li {
@@ -136,12 +135,14 @@ nav li a:hover{
     height: 80px;
     width: 160px;
 }
-.box{
-    float:right;
-    display: flex;
-    margin-top: -1rem;
-}
 
+.box {
+    padding-left: 42rem;
+    display: flex;
+    margin-top: -7rem;
+
+  }
+  
 #sp2{
     font-size: 30px;
     font-family:'Times New Roman', Times, serif;
@@ -168,7 +169,7 @@ nav li a:hover{
     background: #FFE9E1;
 }
 .lines{
-    float: right;
+    padding-left: 42rem;
     margin-top: -6.5rem;
     display: flex;
 }
@@ -188,8 +189,7 @@ nav li a:hover{
     background-color: #80D588;
 }
 .info{
-    float: right;
-    margin-top: -6rem;
+    padding-left: 42rem;
     display: flex;  
 }
 .info1,.info2,.info3{
@@ -209,7 +209,7 @@ nav li a:hover{
     margin-right: 18px;
 }
 .info-detail{
-    float: right;
+    padding-left: 42rem;
     display:flex;
     margin-top: -3.5rem;
 }
@@ -244,3 +244,5 @@ nav li a:hover{
     margin-top: -4.5rem;
     padding: 0 100px;
 }
+
+
