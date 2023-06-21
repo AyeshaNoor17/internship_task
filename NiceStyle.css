@@ -35,7 +35,8 @@ nav .logo p {
 }
 
 nav ul {
-    padding-left: 47rem;
+    position: absolute;
+    margin-left: 47rem;
 }
 
 nav li {
@@ -74,17 +75,16 @@ nav li a:hover{
 }
 
 .main{
+    position: absolute;
     padding: 6rem;
+    text-align: center;
+    margin-left: 24rem;    
 }
 
 #para1{
     padding-top: 1rem;
     font-family: Arial, Helvetica, sans-serif;
     color:#6F7A93;
-}
-
-.main{
-    text-align: center;
 }
 
 #sp0{
@@ -105,6 +105,7 @@ nav li a:hover{
 }
 
 #img1{
+    margin-top: 20rem;
     padding: 0%;
 }
 
@@ -137,6 +138,7 @@ nav li a:hover{
 }
 
 .box {
+    position: absolute;
     padding-left: 42rem;
     display: flex;
     margin-top: -7rem;
@@ -169,6 +171,7 @@ nav li a:hover{
     background: #FFE9E1;
 }
 .lines{
+    position: absolute;
     padding-left: 42rem;
     margin-top: -6.5rem;
     display: flex;
@@ -189,8 +192,10 @@ nav li a:hover{
     background-color: #80D588;
 }
 .info{
+    position: absolute;
     padding-left: 42rem;
-    display: flex;  
+    display: flex;
+    margin-top: -6rem;  
 }
 .info1,.info2,.info3{
     padding-top: 10px;
@@ -209,6 +214,7 @@ nav li a:hover{
     margin-right: 18px;
 }
 .info-detail{
+    position: absolute;
     padding-left: 42rem;
     display:flex;
     margin-top: -3.5rem;
